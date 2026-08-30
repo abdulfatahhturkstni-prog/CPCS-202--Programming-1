@@ -1,0 +1,20 @@
+
+import java .util.Scanner;
+import javax.sound.sampled.SourceDataLine;
+public class 3_Lab {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.err.println("Enter a lowercase English letter : ");
+        char letter = in.next().charAt(0);
+
+        if(letter=='a' || letter=='e'||letter=='i' || letter=='o'||letter=='u' ){
+            System.out.println(letter+" is a vowel ");
+        }
+        else if(letter<'a' || letter>'z'){
+            System.err.println("is not a lowercase letter");
+        }
+        else{
+            System.err.println(letter+" is a consonant ");
+        }
+    }
+}

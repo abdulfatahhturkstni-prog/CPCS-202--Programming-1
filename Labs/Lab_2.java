@@ -1,5 +1,5 @@
 import java.util.*;
-public class Lab {
+public class Lab_2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         // Fix decimal format error (use dot '.' instead of comma)
